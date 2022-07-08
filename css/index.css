@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #0f0f0f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: none;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 1rem;
+}
+
+.male img {
+  border: 2px solid blue;
+}
+.male button {
+  background-color: blue;
+}
+
+.female img {
+  border: 2px solid red;
+}
+.female button {
+  background-color: red;
+}
